@@ -25,7 +25,9 @@
   "model_dir": "Checkpoints",
 
   "train_set": "CG.train.index",
-  "val_set": "CG.val.index",
+  "val_set": {
+    "CG": "CG.val.index",
+  },
 
   "eval_harness_tasks": [
     "lambada",
